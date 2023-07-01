@@ -18,7 +18,7 @@ public class CarSpawner : MonoBehaviour
 
     private void Start()
     {
-        // Sterge toate mașinile din folderul specificat
+        // Delete all cars in the specified folder
         foreach (Transform child in carFolder)
         {
             Destroy(child.gameObject);
@@ -35,13 +35,13 @@ public class CarSpawner : MonoBehaviour
         {
             await Task.Delay(TimeSpan.FromSeconds(spawnInterval));
 
-            if (!isSpawning) // Verifică din nou dacă jocul a fost oprit înainte de a crea o mașină
+            if (!isSpawning) // Check again if spawning has been stopped before creating a car
                 break;
 
             int randomSpawnIndex = Random.Range(0, 4);
             Transform spawnPoint;
 
-            // Alege unul dintre punctele de spawn în mod aleatoriu
+            // Choose one of the spawn points randomly
             if (randomSpawnIndex == 0)
                 spawnPoint = spawn1;
             else if (randomSpawnIndex == 1)
@@ -51,11 +51,10 @@ public class CarSpawner : MonoBehaviour
             else
                 spawnPoint = spawn4;
 
-            // Spawnează mașina la punctul de spawn ales
-            GameObject carSpawned = Instantiate(car, spawnPoint.position, spawnPoint.rotation);
-            //carSpawned.transform.SetParent(carFolder);
+            // Spawn the car at the chosen spawn point
+            Instantiate(car, spawnPoint.position, spawnPoint.rotation);
 
-            // Scade intervalul de spawn în funcție de timpul scurs în joc
+            // Decrease the spawn interval based on the time elapsed in the game
             spawnInterval = Mathf.Clamp(initialSpawnInterval - PlayerController.GetTimer() * 0.1f, minSpawnInterval, initialSpawnInterval);
         }
     }

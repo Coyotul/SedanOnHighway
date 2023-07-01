@@ -17,11 +17,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private TextMeshProUGUI highScoreText;
+    [SerializeField] private AudioClip[] _audioClips;
+    [SerializeField] private AudioSource _audioSource;
     [SerializeField] private GameObject restartButton;
 
     // Start is called before the first frame update
     void Start()
     {
+        _audioSource.clip = _audioClips[0];
+        _audioSource.Play();
+        _audioSource.loop = true;
         // Găsește toate obiectele cu tag-ul "car"
         GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
 
@@ -75,6 +80,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        _audioSource.clip = _audioClips[1];
+        _audioSource.Play();
+        _audioSource.loop = false;
         timer = 0f;
 
         Time.timeScale = 0f;
@@ -100,6 +108,9 @@ public class PlayerController : MonoBehaviour
 
     public void RestartGame()
     {
+        _audioSource.clip = _audioClips[0];
+        _audioSource.Play();
+        _audioSource.loop = true;
         // Găsește toate obiectele cu tag-ul "car"
         GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
 

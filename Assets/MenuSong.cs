@@ -6,13 +6,13 @@ public class MenuSong : MonoBehaviour
 
     private void Start()
     {
-        // Asigurați-vă că componenta AudioSource este atașată în inspector
+        // Make sure the AudioSource component is attached in the inspector
         if (audioSource != null)
         {
-            // Setați loop-ul pe adevărat pentru redarea repetată a melodiei
+            // Set loop to true for repeated playback of the song
             audioSource.loop = true;
 
-            // Redați melodia
+            // Play the song
             audioSource.Play();
         }
     }
