@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Track : MonoBehaviour
+public class track : MonoBehaviour
 {
     public float speed;
     public static bool IsActive;

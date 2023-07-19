@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DevPlay.SedanOnHighway",
+  "applicationId": "com.CoyotuDevPlay.SedanOnHighwayFreeVersion",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -10,8 +10,8 @@
       "apkData": {
         "type": "MAIN",
         "splits": [],
-        "versionCode": 1,
-        "versionName": "1.0.4",
+        "versionCode": 2,
+        "versionName": "2.0",
         "outputFile": "launcher-release.apk",
         "fullName": "release",
         "baseName": "release",
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.DevPlay.SedanOnHighway",
+        "packageId": "com.CoyotuDevPlay.SedanOnHighwayFreeVersion",
         "split": "",
         "minSdkVersion": "22"
       }

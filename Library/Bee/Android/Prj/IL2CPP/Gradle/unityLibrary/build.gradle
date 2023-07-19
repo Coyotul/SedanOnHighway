@@ -3,6 +3,8 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'UnityAds', ext:'aar')
+    implementation(name: 'UnityAdsAndroidPlugin', ext:'aar')
 
 }
 
@@ -21,8 +23,8 @@ android {
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
-        versionCode 1
-        versionName '1.0.4'
+        versionCode 2
+        versionName '2.0'
         consumerProguardFiles 'proguard-unity.txt'
     }
 

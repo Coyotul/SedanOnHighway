@@ -1,166 +1,195 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.DevPlay.SedanOnHighway"
+3    package="com.CoyotuDevPlay.SedanOnHighwayFreeVersion"
 4    android:installLocation="preferExternal"
-5    android:versionCode="1"
-6    android:versionName="1.0.4" >
+5    android:versionCode="2"
+6    android:versionName="2.0" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+9-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="33" />
-10-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 11
 12    <supports-screens
-12-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+12-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
 13        android:anyDensity="true"
-13-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+13-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
 14        android:largeScreens="true"
-14-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+14-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
 15        android:normalScreens="true"
-15-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+15-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
 16        android:smallScreens="true"
-16-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+16-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
 17        android:xlargeScreens="true" />
-17-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+17-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
 18
 19    <uses-feature android:glEsVersion="0x00030000" />
-19-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
-19-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+19-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
 20    <uses-feature
-20-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+20-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
 21        android:name="android.hardware.vulkan.version"
-21-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+21-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
 22        android:required="false" />
-22-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+22-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
 23    <uses-feature
-23-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+23-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
 24        android:name="android.hardware.sensor.accelerometer"
-24-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-61
+24-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-61
 25        android:required="false" />
-25-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+25-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
 26    <uses-feature
-26-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+26-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
 27        android:name="android.hardware.touchscreen"
-27-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-52
+27-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-52
 28        android:required="false" />
-28-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+28-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
 29    <uses-feature
-29-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+29-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
 30        android:name="android.hardware.touchscreen.multitouch"
-30-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-63
+30-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-63
 31        android:required="false" />
-31-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+31-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
 32    <uses-feature
-32-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:36
+32-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:36
 33        android:name="android.hardware.touchscreen.multitouch.distinct"
-33-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-72
+33-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-72
 34        android:required="false" />
-34-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-33
+34-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-33
 35
-36    <application
-36-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
-37        android:extractNativeLibs="true"
-37-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:18-50
-38        android:icon="@mipmap/app_icon"
-38-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
-39        android:label="@string/app_name" >
-39-->C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
-40        <activity
-40-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-51:20
-41            android:name="com.unity3d.player.UnityPlayerActivity"
-41-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-66
-42            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-42-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-194
-43            android:exported="true"
-43-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-36
-44            android:hardwareAccelerated="false"
-44-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-48
-45            android:launchMode="singleTask"
-45-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
-46            android:resizeableActivity="false"
-46-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
-47            android:screenOrientation="fullUser"
-47-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-49
-48            android:theme="@style/UnityThemeSelector" >
-48-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
-49            <intent-filter>
-49-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
-50-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
-52-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
-53            </intent-filter>
-54
-55            <meta-data
-55-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
-56                android:name="unityplayer.UnityActivity"
-56-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
-57                android:value="true" />
-57-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
-58            <meta-data
-58-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
-59                android:name="android.notch_support"
-59-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
-60                android:value="true" />
-60-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
-61        </activity>
-62
-63        <meta-data
-63-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
-64            android:name="unity.splash-mode"
-64-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
-65            android:value="0" />
-65-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
-66        <meta-data
-66-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
-67            android:name="unity.splash-enable"
-67-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
-68            android:value="True" />
-68-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
-69        <meta-data
-69-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
-70            android:name="unity.launch-fullscreen"
-70-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
-71            android:value="True" />
-71-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
-72        <meta-data
-72-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
-73            android:name="unity.allow-resizable-window"
-73-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
-74            android:value="False" />
-74-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
-75        <meta-data
-75-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
-76            android:name="notch.config"
-76-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
-77            android:value="portrait|landscape" />
-77-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
-78
-79        <receiver
-79-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:40
-80            android:name="com.unity.androidnotifications.UnityNotificationManager"
-80-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-83
-81            android:exported="false" />
-81-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-37
-82        <receiver
-82-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-79:20
-83            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
-83-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-97
-84            android:enabled="false"
-84-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-36
-85            android:exported="false" >
-85-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-37
-86            <intent-filter>
-86-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-78:29
-87                <action android:name="android.intent.action.BOOT_COMPLETED" />
-87-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:17-79
-87-->[:unityLibrary] C:\Users\George\android car game - Copie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:25-76
-88            </intent-filter>
-89        </receiver>
-90    </application>
-91
-92</manifest>
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:9:5-79
+36-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:9:22-76
+37    <uses-permission android:name="android.permission.INTERNET" />
+37-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:10:5-67
+37-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:10:22-64
+38    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+38-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:11:5-79
+38-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:11:22-76
+39
+40    <application
+40-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+41        android:extractNativeLibs="true"
+41-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:18-50
+42        android:icon="@mipmap/app_icon"
+42-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+43        android:label="@string/app_name" >
+43-->C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+44        <activity
+44-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-51:20
+45            android:name="com.unity3d.player.UnityPlayerActivity"
+45-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-66
+46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+46-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-194
+47            android:exported="true"
+47-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-36
+48            android:hardwareAccelerated="false"
+48-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-48
+49            android:launchMode="singleTask"
+49-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
+50            android:resizeableActivity="false"
+50-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
+51            android:screenOrientation="fullUser"
+51-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-49
+52            android:theme="@style/UnityThemeSelector" >
+52-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+53            <intent-filter>
+53-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
+54-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
+56-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
+57            </intent-filter>
+58
+59            <meta-data
+59-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+60                android:name="unityplayer.UnityActivity"
+60-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+61                android:value="true" />
+61-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+62            <meta-data
+62-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+63                android:name="android.notch_support"
+63-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+64                android:value="true" />
+64-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+65        </activity>
+66
+67        <meta-data
+67-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+68            android:name="unity.splash-mode"
+68-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+69            android:value="0" />
+69-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+70        <meta-data
+70-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+71            android:name="unity.splash-enable"
+71-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+72            android:value="True" />
+72-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+73        <meta-data
+73-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
+74            android:name="unity.launch-fullscreen"
+74-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
+75            android:value="True" />
+75-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
+76        <meta-data
+76-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
+77            android:name="unity.allow-resizable-window"
+77-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
+78            android:value="False" />
+78-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
+79        <meta-data
+79-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
+80            android:name="notch.config"
+80-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
+81            android:value="portrait|landscape" />
+81-->[:unityLibrary] C:\Users\George\androidSimpleCarGame1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
+82
+83        <activity
+83-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:14:9-18:74
+84            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+84-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:15:13-74
+85            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+85-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:16:13-170
+86            android:hardwareAccelerated="true"
+86-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:17:13-47
+87            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+87-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:18:13-71
+88        <activity
+88-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:19:9-23:86
+89            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+89-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:20:13-85
+90            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+90-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:21:13-170
+91            android:hardwareAccelerated="true"
+91-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:22:13-47
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+92-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:23:13-83
+93        <activity
+93-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:24:9-28:86
+94            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+94-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:25:13-93
+95            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+95-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:26:13-170
+96            android:hardwareAccelerated="false"
+96-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:27:13-48
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+97-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:28:13-83
+98        <activity
+98-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:29:9-33:74
+99            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+99-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:30:13-82
+100            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+100-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:31:13-170
+101            android:hardwareAccelerated="false"
+101-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:32:13-48
+102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+102-->[:UnityAds:] C:\Users\George\.gradle\caches\transforms-2\files-2.1\2809108ce38bd8a1a562cb211d26d0c4\UnityAds\AndroidManifest.xml:33:13-71
+103    </application>
+104
+105</manifest>

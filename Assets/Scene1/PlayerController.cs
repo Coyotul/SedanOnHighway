@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -20,10 +21,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip[] _audioClips;
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private GameObject restartButton;
+    [SerializeField] InterstitialAd _interstitialAd;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        _interstitialAd.LoadAd();
         _audioSource.clip = _audioClips[0];
         _audioSource.Play();
         _audioSource.loop = true;
@@ -78,13 +82,21 @@ public class PlayerController : MonoBehaviour
        
     }
 
+    private async void ShowAd()
+    {
+        await Task.Delay(1000);
+        _interstitialAd.ShowAd();
+
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         _audioSource.clip = _audioClips[1];
         _audioSource.Play();
         _audioSource.loop = false;
         timer = 0f;
-
+        int rand = Random.Range(1, 3);
+        if(rand ==1)
+            ShowAd();
         Time.timeScale = 0f;
         Debug.Log("Game Over"); // Exemplu: Afiseaza "Game Over" in consola
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
+            "outputFile": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -25,10 +25,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v30_values-v30.arsc.flat",
+            "outputFile": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v30_values-v30.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -40,10 +40,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
+            "outputFile": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "source": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -64,11 +64,16 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "outputFile": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "source": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
                         "startOffsets": "55,101,158,214,263,309",
@@ -77,39 +82,36 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,108",
-                        "endColumns": "51,65",
-                        "endOffsets": "104,171"
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "64,-1",
+                        "endOffsets": "117,-1"
                     },
                     "to": {
                         "startLines": "8,9",
                         "startColumns": "4,4",
-                        "startOffsets": "356,410",
-                        "endColumns": "53,67",
-                        "endOffsets": "405,473"
+                        "startOffsets": "356,423",
+                        "endColumns": "66,67",
+                        "endOffsets": "418,486"
                     }
                 },
                 {
-                    "source": "C:\\Users\\George\\android car game - Copie\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\George\\androidSimpleCarGame1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
                         "startLines": "10,12,15",
                         "startColumns": "4,4,4",
-                        "startOffsets": "478,578,716",
+                        "startOffsets": "491,591,729",
                         "endLines": "11,14,18",
                         "endColumns": "8,8,8",
-                        "endOffsets": "573,711,938"
+                        "endOffsets": "586,724,951"
                     }
                 }
             ]

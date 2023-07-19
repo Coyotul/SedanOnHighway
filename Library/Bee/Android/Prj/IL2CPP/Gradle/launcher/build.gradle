@@ -16,17 +16,26 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 33
-        applicationId 'com.DevPlay.SedanOnHighway'
+        applicationId 'com.CoyotuDevPlay.SedanOnHighwayFreeVersion'
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
-        versionCode 1
-        versionName '1.0.4'
+        versionCode 2
+        versionName '2.0'
     }
 
     aaptOptions {
         noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('C:/Users/George/androidSimpleCarGame1/user.keystore')
+            storePassword 'Nuilmaistiu01'
+            keyAlias 'sedanonhighway game'
+            keyPassword 'Nuilmaistiu01'
+        }
     }
 
     lintOptions {
@@ -37,13 +46,13 @@ android {
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             jniDebuggable true
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
 

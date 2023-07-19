@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.com.unity.template.mobile2D",
+  "applicationId": "com.CoyotuDevPlay.SedanOnHighwayFreeVersion",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -11,7 +11,7 @@
         "type": "MAIN",
         "splits": [],
         "versionCode": 1,
-        "versionName": "1.0.2",
+        "versionName": "1.0",
         "outputFile": "launcher-release.apk",
         "fullName": "release",
         "baseName": "release",
@@ -19,7 +19,7 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.DefaultCompany.com.unity.template.mobile2D",
+        "packageId": "com.CoyotuDevPlay.SedanOnHighwayFreeVersion",
         "split": "",
         "minSdkVersion": "22"
       }
