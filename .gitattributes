@@ -1,0 +1,2 @@
+Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
