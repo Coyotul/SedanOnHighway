@@ -7,7 +7,7 @@ The game has a score and a highscore system for competitive status.
 
 I posted this game on google play (https://play.google.com/store/apps/details?id=com.CoyotuDevPlay.SedanOnHighwayFreeVersion - free version with ads https://play.google.com/store/apps/details?id=com.DevPlay.SedanOnHighway - premium version)
 
-Made in unity using C#
+Made in Unity using C#
 
 Author: Constantin Florin-George
 
