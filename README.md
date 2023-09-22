@@ -1,4 +1,4 @@
-# androidSimpleCarGame
+# SedanOnHighway
 Title: SedanOnHighway
 
 This is a game where you take control of a car on a highway and try not to crash in the cars that spawn in front of you.
